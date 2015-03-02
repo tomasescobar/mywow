@@ -27,7 +27,7 @@ angular.module('wow')
 	
 	// Set language locale prefix
 	$translateProvider.useStaticFilesLoader({
-		prefix: '/lang/',
+		prefix: '/mywow/lang/',
 		suffix: langRev + '.json'
 	});
 
