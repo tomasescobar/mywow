@@ -91,11 +91,11 @@
  */
 @font-face {
   font-family: 'Material Design Iconic Font';
-  src: url('/fonts/material-design.eot?v=1.0.1');
-  src: url('/fonts/material-design.eot?#iefix&v=1.0.1') format('embedded-opentype'), 
-       url('/fonts/material-design.woff?v=1.0.1') format('woff'), 
-       url('/fonts/material-design.ttf?v=1.0.1') format('truetype'), 
-       url('/fonts/material-design.svg?v=1.0.1#material-design') format('svg');
+  src: url('/mywow/fonts/material-design.eot?v=1.0.1');
+  src: url('/mywow/fonts/material-design.eot?#iefix&v=1.0.1') format('embedded-opentype'), 
+       url('/mywow/fonts/material-design.woff?v=1.0.1') format('woff'), 
+       url('/mywow/fonts/material-design.ttf?v=1.0.1') format('truetype'), 
+       url('/mywow/fonts/material-design.svg?v=1.0.1#material-design') format('svg');
   font-weight: normal;
   font-style: normal;
 }

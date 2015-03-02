@@ -62,7 +62,7 @@ angular.module('wow.directives')
 		templateUrl: '/template/levels/te-wow-level.html',
 
 		link: function(scope, element, attr) {
-			scope.levelNumber = 4;
+			scope.levelNumber = 0;
 
 			var levels = [
 				{
