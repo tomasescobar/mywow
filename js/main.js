@@ -67,8 +67,8 @@ angular.module('wow.directives')
 			var levels = [
 				{
 					number: 1,
-					hint: 'Green shows the answer',
-					password: ['wizard']
+					hint: 'Green shows the answer!',
+					password: ['wow me', 'wowme']
 				},
 				{
 					number: 2,
