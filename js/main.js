@@ -72,31 +72,31 @@ angular.module('wow.directives')
 				},
 				{
 					number: 2,
-					bgImg: '/img/2.jpg',
+					bgImg: '/mywow/img/2.jpg',
 					hint: 'Have you tried my birthplace? It\'s not Buenos Aires.',
 					password: ['san juan']
 				},
 				{
 					number: 3,
-					bgImg: '/img/3.jpg',
+					bgImg: '/mywow/img/3.jpg',
 					hint: 'A computer is needed to do it',
 					password: ['programming', 'code', 'coding', 'computer programming']
 				},
 				{
 					number: 4,
-					bgImg: '/img/5.jpg',
+					bgImg: '/mywow/img/5.jpg',
 					hint: 'Imparted in schools (and everywhere)',
 					password: ['education', 'learning']
 				},
 				{
 					number: 5,
-					bgImg: '/img/4.jpg',
+					bgImg: '/mywow/img/4.jpg',
 					hint: 'You can enter either the sport or the team I\'m fan of (whose stadium is called "Monumental)"',
 					password: ['football', 'soccer', 'river plate', 'river']
 				},
 				{
 					number: 6,
-					bgImg: '/img/6.jpg',
+					bgImg: '/mywow/img/6.jpg',
 					hint: 'Human beings in general or considered collectively',
 					password: ['people', 'group']
 				},
