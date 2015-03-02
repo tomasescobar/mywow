@@ -1,0 +1,51 @@
+@import "normalize";
+
+@import "../angular/levels/levels";
+
+
+@color1: #00ff7d;
+
+body {
+	font-family: Roboto Slab, Helvetica Neue, Arial, sans-serif;
+	font-size: 15px;
+	background-color: #202020;
+	color: #fff;
+	font-weight: 300;
+}
+
+ul, li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+	font-family: Roboto Slab, Helvetica Neue, Arial, sans-serif;
+	font-weight: 300;
+	font-size: 50px;
+	margin: 15px 0;
+}
+h2 {
+	font-family: Roboto Slab, Helvetica Neue, Arial, sans-serif;
+	font-weight: 300;
+	font-size: 30px;
+	margin: 15px 0;
+}
+
+// Clear fix
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+html[xmlns] .clearfix {
+	display: block;
+}
+
+* html .clearfix {
+	height: 1%;
+}

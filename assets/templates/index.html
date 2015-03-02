@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en" ng-app="wow" ng-strict-di>
+<head>
+	<meta charset="utf-8">
+	<title>WOW</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+	<!-- Escape fragment -->
+	<meta name="fragment" content="!">
+
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:300,400|Roboto:400,500,300' rel='stylesheet' type='text/css'>
+	<!-- inject:css -->
+	<!-- endinject -->
+
+	<base href="/">
+</head>
+<body>
+
+	<div ng-if="i18nLoaded">
+		<te-wow-level></te-wow-level>
+	</div>
+
+	<script>
+	var appConfig = <%= APP_CONFIG %>;
+	</script>
+	<!-- inject:js -->
+	<!-- endinject -->
+</html>
